@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  guarddo-bot:
+    build: .
+    container_name: guarddo-bot
+    restart: always
+    command: ["python", "-m", "main"]
